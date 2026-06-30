@@ -1,6 +1,6 @@
 #include <iostream>
 
-//Условные конструкции if/else
+//Условные конструкции if/else и switch\case
 int main(int argc, char const *argv[])
 {
     int value = 20;
@@ -21,6 +21,20 @@ int main(int argc, char const *argv[])
     else {
         std::cout << "Verification failed" << std::endl;
     }
+
+    int money = 2000;
     
+    switch(money){
+        case 1000: std::cout << "You have 1000$" << std::endl;
+        break;
+
+        case 2000: std::cout << "You have 2000$" << std::endl;
+        break;
+
+        case 5000: std::cout << "You have 5000$" << std::endl;
+        break;
+
+        default: std::cout << "Unknown amount" << std::endl;
+    }
 
 }
