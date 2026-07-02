@@ -18,6 +18,6 @@ int main(int argc, char const *argv[])
         float kmh = (mc * 3600) / 1000;
         cout << mc << " м/c "<< "это " << kmh << " kм/ч";
     }
-
+    
     return 0;
 }
